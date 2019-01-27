@@ -1,0 +1,2 @@
+# XamarinAndroidPractice
+practice for xamarinAndroid
