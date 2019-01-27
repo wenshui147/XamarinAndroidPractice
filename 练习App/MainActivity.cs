@@ -5,12 +5,14 @@ using Android.Runtime;
 using Android.Widget;
 using Android.Content;
 using AlertDialog = Android.App.AlertDialog;
+using System.Collections.Generic;
 
 namespace 练习App
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    [Activity(Label = "Phone_Droid", Theme = "@style/AppTheme", MainLauncher = true)]
+    public class MainActivity : AppCompatActivity       
     {
+        static readonly List<string> phoneNumbers = new List<string>();
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -34,6 +36,17 @@ namespace 练习App
                     callButton.Enabled = true;
                 }
             };
+
+            Button callHistoryButton = FindViewById<Button>(Resource.Id.callHistoryButton);
+            callHistoryButton.Click += (e, t) =>
+            {
+                //指定意图需要打开的活动
+                var intent = new Intent(this, typeof(CallHistoryActivity));
+                //设置意图传递参数
+                intent.PutStringArrayListExtra("phone_numbers", phoneNumbers);
+                StartActivity(intent);
+            };
+
             callButton.Click += (s, e) => 
             {
                 //对话框
@@ -43,10 +56,14 @@ namespace 练习App
                 callDialog.SetMessage("Call" + translateNumber + "?");
 
 
+
                 
                 //拨打按钮
                 callDialog.SetNegativeButton("Call", delegate          //SetPositiveButton
                 {
+                    //将电话加到历史记录列表中
+                    phoneNumbers.Add(translateNumber);
+                    callHistoryButton.Enabled = true;
                     //使用意图拨打电话
                     var callIntent = new Intent(Intent.ActionCall);
 
@@ -60,6 +77,7 @@ namespace 练习App
                 callDialog.Show();
 
             };
+           
         }
     }
 }

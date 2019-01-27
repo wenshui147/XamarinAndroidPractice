@@ -55,4 +55,14 @@ F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\linksrc\System.Net.Http.pdb
 F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
 F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\linksrc\Mono.Security.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\练习App.csprojAssemblyReference.cache
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\Mono.Android.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\Mono.Security.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\mscorlib.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\System.Core.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\System.Net.Http.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\System.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
+F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\System.Xml.pdb
 F:\CSharp\MyAndroid\练习App\练习App\obj\Debug\81\android\assets\练习App.pdb

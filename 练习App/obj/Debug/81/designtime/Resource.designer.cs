@@ -2390,6 +2390,9 @@ namespace 练习App
 			// aapt resource value: 0x7F010005
 			public const int CallButton = 2130771973;
 			
+			// aapt resource value: 0x7F010006
+			public const int callHistoryButton = 2130771974;
+			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
 			
@@ -3125,6 +3128,9 @@ namespace 练习App
 			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
+			
+			// aapt resource value: 0x7F050004
+			public const int callHistory = 2131034116;
 			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;

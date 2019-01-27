@@ -35,4 +35,15 @@
 		android:layout_height="wrap_content"
 		android:textAllCaps="false"
 		/>
+	<Button
+		android:layout_below="@id/CallButton"
+		android:text="@+string/callHistory"
+		android:id="@+id/callHistoryButton"
+		android:textAllCaps="false"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	 	android:enabled="false"
+		/>
+	
+		
 </RelativeLayout>
