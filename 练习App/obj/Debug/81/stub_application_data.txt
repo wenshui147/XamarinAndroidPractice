@@ -1,0 +1,2 @@
+android.app.Application
+x__App.x__App
